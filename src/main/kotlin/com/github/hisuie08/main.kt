@@ -82,7 +82,7 @@ class BotClient{
         val commandClient = CommandClientBuilder()
             .setPrefix(commandPrefix)
             .setOwnerId("")
-            .addCommand(ShowEmbed())
+            .addCommands(ShowEmbed(),ShowEmbedLocal())
             .build()
         
         jda = JDABuilder.createLight(token,

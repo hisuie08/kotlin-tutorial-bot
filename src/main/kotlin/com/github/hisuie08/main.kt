@@ -32,3 +32,11 @@ fun main() {
     val bot = BotClient()
     bot.main("トークン文字列")
 }
+
+/*
+jarファイルを作成するときはmain関数を以下のように置き換える
+fun main(args:Array<String>){
+    val bot = BotClient()
+    bot.main(args[0])
+}
+ */

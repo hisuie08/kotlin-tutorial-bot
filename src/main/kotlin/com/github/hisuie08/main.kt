@@ -75,7 +75,7 @@ class ShowEmbedLocal:Command(){
 addCommand()でShowEmbedを登録するのを忘れないようにしましょう。
  **/
 class BotClient{
-    lateinit var jda: JDA
+    private lateinit var jda: JDA
     private val commandPrefix = "/"
     
     fun main(token: String) {

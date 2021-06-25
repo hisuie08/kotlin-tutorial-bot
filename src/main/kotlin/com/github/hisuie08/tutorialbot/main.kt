@@ -1,4 +1,4 @@
-package com.github.hisuie08
+package com.github.hisuie08.tutorialbot
 
 import net.dv8tion.jda.api.JDA
 import net.dv8tion.jda.api.JDABuilder
